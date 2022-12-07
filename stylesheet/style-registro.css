@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #87CEEB;
+}
+card{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    border-radius: 2vw;
+    background-color: #ADD8E6;
+    gap: 1vh;
+    border: 1px black solid;
+}
+card>input{
+    width: 20vw;
+    height: 3vh;
+}
+card>button{
+    height: 5vh;
+    border: 1px black solid;
+    color: white;
+    margin: 2vh 0vw;
+    background-color: #87CEEB;
+    border-radius: 2vw;
+}
+card>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#login{
+    color: white;
+    text-decoration: none;
+    background-color: #87CEEB;
+    border-radius: 2vw;
+    border: 1px black solid;
+    padding: 1vh 2vw;
+}
+#voltar{
+    text-align: center;
+}
